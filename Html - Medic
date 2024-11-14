@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medic-Age:   
+ Your Elderly Care Partner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <button class="join-waitlist">Join Waitlist</button>
+            </ul>
+        </nav>
+        <h1>Medic-Age</h1>
+        <h2>Your Elderly Care Partner</h2>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="hero-image.jpg" alt="Elderly Care">
+            <h2>Caring for the Golden Years</h2>
+            <p>Your loved ones deserve the best.</p>
+            <a href="#" class="btn">Learn More</a>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Home Care</h3>
+                <p>Professional in-home care for daily needs.</p>
+            </div>
+            <div class="service">
+                <h3>Meal Planning</h3>
+                <p>Customized meal plans for optimal health.</p>
+            </div>
+            <div class="service">
+                <h3>Doctor Appointments</h3>
+                <p>Assistance with scheduling and transportation.</p>
+            </div>
+            <div class="service">
+                <h3>Companionship</h3>
+                <p>Friendly visits and social interaction.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">   
+
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>   
+
+        <p>&copy; Medic-Age 2024</p>
+    </footer>
+</body>
+</html>
